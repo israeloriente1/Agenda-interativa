@@ -1,0 +1,29 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    margin-top: auto !important;
+}
+
+.main-table-container {
+    max-width: 850px !important;
+}
+
+.main-icon {
+    width: 65px;
+    margin: auto !important;
+    display: block;
+}
+
+.mt-custom {
+    margin-top: -40px !important;
+}
+
+form {
+    max-width: 550px !important;
+    margin: auto;
+    margin-top: 40px;
+}
