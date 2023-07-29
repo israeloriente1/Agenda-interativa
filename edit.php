@@ -27,7 +27,7 @@
 
             <div class="mb-3">
                 <label for="userPhone" class="form-label">Telefone</label>
-                <input type="tel" class="form-control" name="userPhone" id="userPhone" maxlength="16" placeholder="(00) 00000-0000" pattern="\([0-9]{2}\) 9[0-9]{4}-[0-9]{4}" value="<?= $userPhone?>" required>
+                <input type="tel" class="form-control" name="userPhone" id="userPhone" maxlength="15" placeholder="(00) 00000-0000" pattern="\([0-9]{2}\) [0-9]{5}-[0-9]{4}" value="<?= $userPhone?>" required>
             </div>
 
             <div class="mb-3">
@@ -40,5 +40,7 @@
             </div>
         </form>
     </main>
+
+    <script src="./js/autoCorrectPhone.js"></script>
 
 <?php require_once "./templates/footer.php";?>
